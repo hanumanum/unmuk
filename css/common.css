@@ -2,7 +2,17 @@
 	border: 3px dotted white !important;
 }
 
-.panel-body ul{
+.panel-body ol{
 	list-style-type: armenian;
+}
+
+.footer{
+	background-color: #5bc0de;
+	padding:15px 0px;
+	color: white;
+}
+
+.footer a{
+	color:white;
 }
 
