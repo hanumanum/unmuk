@@ -1,0 +1,8 @@
+*:focus{
+	border: 3px dotted white !important;
+}
+
+.panel-body ul{
+	list-style-type: armenian;
+}
+
