@@ -76,7 +76,7 @@
 
 
           <hr>
-          <a href="01_.html" class="btn btn-lg btn-success pull-right">
+          <a href="03_home_end.php" class="btn btn-lg btn-success pull-right">
           Հաջորդ վարժանքը »
           </a>
           </div>

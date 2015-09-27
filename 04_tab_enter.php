@@ -45,11 +45,11 @@
         <div class="panel panel-danger">
           <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
           <div class="panel-body">
-            <ul>
+            <ol>
               <li>Հիմա փորձիր սեղմել <span class="label label-success">Tab</span>-ին մի քանի անգամ և հասկանալ թե ինչ է կատարվում։</li>
               <li>Tab-ի միջոցով նավարկելով հասիր «Հաջորդը» կոճակին</li>
               <li>Սեղմի՛ր <span class="label label-success">Enter</span>, կանցնես հաջորդ վարժանքին</li>
-            </ul>
+            </ol>
           </div>
         </div>
 
@@ -57,18 +57,18 @@
         <div class="panel panel-success">
           <div class="panel-heading"><span class="glyphicon glyphicon-wrench"></span> Աշխատանքային տարածք</div>
           <div class="panel-body">
-          <a href="http://hy.wikipedia.org" id="link-first">Վիքիպեդիա</a><br>
-          <a href="http://hy-it.org">ՀայIT.org</a><br>
+          <a href="http://hy-it.org" id="link-first">ՀայIT.org</a><br>
+          <a href="http://grapaharan.org">Գրապահարան</a><br>
           <a href="http://gago.org" id="link-last">Gago.com</a>   
           <hr>
-          <a href="00_tab.html" id="ancum" class="btn btn-lg btn-primary">
+          <a href="04_tab_enter.php" id="ancum" class="btn btn-lg btn-primary">
           Կոճակ
           </a>
-          <a href="00_tab.html"  class="btn btn-lg btn-primary">
+          <a href="04_tab_enter.php"  class="btn btn-lg btn-primary">
           Կոճակ
           </a>
 
-          <a href="00_tab.html" id="havayi" data-toggle="tooltip" title="asdfsd" class="btn btn-lg btn-primary">
+          <a href="04_tab_enter.php" id="havayi" data-toggle="tooltip" title="asdfsd" class="btn btn-lg btn-primary">
             Գաղտնիք
           </a>
           <br>
@@ -84,7 +84,7 @@
           <br>
           <textarea class="form-control" placeholder="Բազմատող ներմուծման դաշտ"></textarea>
           <hr>
-          <a href="01_tab.html" class="btn btn-lg btn-success pull-right">
+          <a href="05_whitespace.php" class="btn btn-lg btn-success pull-right">
           Հաջորդ վարժանքը »
           </a>
           </div>
