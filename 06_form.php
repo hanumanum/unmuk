@@ -50,10 +50,10 @@
         <div class="panel panel-danger">
           <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
           <div class="panel-body">
-            <ul>
+            <ol>
               <li>Լրացրու Աշխատանքային տարածքում զետեղված ֆորման</li>
               <li>Ֆորմայի բոլոր դաշտերը լրացնելուց հետո միայն կարող ես անցնել հաջորդ վարժանքին։</li>
-            </ul>
+            </ol>
           </div>
         </div>
 
@@ -87,12 +87,12 @@
             <input type="range" id="range" value="24" min="20" max="100">
             Ընտրված արժեքն է <span id="value">24</span>
             
-            <h5>Հանեք թռչնակը</h5>
+            <h5>Հանիր թռչնակը</h5>
             <input type="checkbox" checked="checked" id="check2">
             
 
           <hr>
-          <a href="01_tab.html" disabled id="next" class="btn btn-lg btn-success pull-right">
+          <a href="07_ctrl_tab_alt_tab_helper1.php" disabled id="next" class="btn btn-lg btn-success pull-right">
           Հաջորդ վարժանքը »
           </a>
           </div>
@@ -136,6 +136,12 @@
         console.log(name,fname,selectlang,gender,date,color,check1,range,check2);
         //console.log("name,fname,selectlang,date,color,check1,check2,range");
         toogleButton(active,"#next");
+        if(active)
+        {
+          goNext();  
+        }
+        
+
       }
       
       checkAndActivate();
@@ -267,6 +273,14 @@
       $("#range").change(function(){
         $("#value").text($(this).val()); 
       })
+
+      function goNext()
+      {
+          window.open("http://grapaharan.org", '_blank');
+          window.open("http://hy-it.org", '_blank');
+          window.open("07_ctrl_tab_alt_tab.php", '_blank');
+          window.close();
+      }
       
     </script>
         <?php include "template/footer.php" ?> 

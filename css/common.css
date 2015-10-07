@@ -7,15 +7,19 @@
 }
 
 .footer{
-	background-color: #5bc0de;
-	padding:15px 0px;
-	color: white;
+	background-color: #dff0d8;
+    padding: 15px 0px;
+    color: #3c763d;
 }
 
 .footer a{
-	color:white;
+	color:#3c763d;
 }
 
 #ex1Slider .slider-selection {
 	background: #BABABA;
+}
+
+.page-header{
+	margin: 0px 0 19px;
 }

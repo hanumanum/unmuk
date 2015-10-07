@@ -35,16 +35,21 @@
           
           <li class="list-group-item list-group-item-success">Ֆորմայի լրացում միայն ստեղնաշարով</li>
 
-          <li class="list-group-item"><span class="label label-success">Ctrl+Tab</span> և <span class="label label-success">Alt+Tab</span></li>
+          <li class="list-group-item list-group-item-success"><span class="label label-success">Ctrl+Tab</span> և <span class="label label-success">Alt+Tab</span></li>
 
-          <li class="list-group-item">
+          <li class="list-group-item list-group-item-success">
             <span class="label label-success">Ctrl+z</span>
           </li>
 
-          <li class="list-group-item">
-            <span class="label label-success">Ctrl+a</span>
+          <li class="list-group-item list-group-item-success">
+            <span class="label label-success ">Ctrl+a</span>
           </li>
 
+          <li class="list-group-item">
+            <span class="label label-success">Ctrl+c</span>
+            <span class="label label-success">Ctrl+x</span>
+            <span class="label label-success">Ctrl+v</span>
+          </li>
 
           <li class="list-group-item">
             <span class="label label-success">Shift+&#8593;</span>
@@ -58,12 +63,6 @@
             <span class="label label-success">Shift+End</span>
             <span class="label label-success">Shift+PgUp</span>
             <span class="label label-success">Shift+PgDn</span>                                    
-          </li>
-
-          <li class="list-group-item">
-            <span class="label label-success">Ctrl+c</span>
-            <span class="label label-success">Ctrl+x</span>
-            <span class="label label-success">Ctrl+v</span>
           </li>
 
           <li class="list-group-item">

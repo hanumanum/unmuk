@@ -48,11 +48,11 @@
         <div class="panel panel-danger">
           <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
           <div class="panel-body">
-            <ul>
+            <ol>
               <li>Հիմա սեղմիր <span class="label label-success">Whitespace</span>-ին մի քանի անգամ:</li>
               <li><span class="label label-success">Tab</span>-ով նավարկիր մինչև «Ընտրեք Քաղաքը» ընտրիչը և <span class="label label-success">Whitespace</span>֊ով ընտրիր որևէ արժեք։</li>
               <li>Նույնը արա նաև «Ընտրեք Լեզուն» ընտրիչի համար։</li>
-            </ul>
+            </ol>
           </div>
         </div>
 
@@ -97,7 +97,7 @@
           <p>Lorem Ipsum-ը տպագրության և տպագրական արդյունաբերության համար նախատեսված մոդելային տեքստ է: Սկսած 1500-ականներից` Lorem Ipsum-ը հանդիսացել է տպագրական արդյունաբերության ստանդարտ մոդելային տեքստ, ինչը մի անհայտ տպագրիչի կողմից տարբեր տառատեսակների օրինակների գիրք ստեղծելու ջանքերի արդյունք է: Այս տեքստը ոչ միայն կարողացել է գոյատևել հինգ դարաշրջան, այլև ներառվել է էլեկտրոնային տպագրության մեջ` մնալով էապես անփոփոխ: Այն հայտնի է դարձել 1960-ականներին Lorem Ipsum բովանդակող Letraset էջերի թողարկման արդյունքում, իսկ ավելի ուշ համակարգչային տպագրության այնպիսի ծրագրերի թողարկման հետևանքով, ինչպիսին է Aldus PageMaker-ը, որը ներառում է Lorem Ipsum-ի տարատեսակներ:</p>
 
           <hr>
-          <a href="01_tab.html" disabled id="next" class="btn btn-lg btn-success pull-right">
+          <a href="06_form.php" disabled id="next" class="btn btn-lg btn-success pull-right">
           Հաջորդ վարժանքը »
           </a>
           </div>
