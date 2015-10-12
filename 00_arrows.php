@@ -24,7 +24,7 @@
     <div class="container-fluid">
       <div class="page-header row">
         <div class="col-md-1">
-          <a href="" id="logo"><img src="images/no-mouse.jpg" width="80"></a>
+          
         </div>
         <div class="col-md-11">
           <h1>Ան-Մուկ</h1>

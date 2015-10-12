@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>ԱնՄուկ | Ctrl+z</title>
+    <title>ԱնՄուկ | Ctrl+c, Ctrl+v, Ctrl+x</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,11 @@
         </div>
         <div class="col-md-11">
           <h1>Ան-Մուկ</h1>
-          <p><span class="label label-success">Ctrl+a</span></p>
+          <p>
+            <span class="label label-success">Ctrl+c</span>
+            <span class="label label-success">Ctrl+v</span>
+            <span class="label label-success">Ctrl+x</span>
+          </p>
       </div>
       </div>
       
@@ -38,7 +42,18 @@
         <div class="panel panel-success">
           <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
           <div class="panel-body">
-            <span class="label label-success">Ctrl+a</span>-ն նախատեսված է տեքստը ամբողջությամբ ընտրելու համար։
+              <span class="label label-success">Ctrl+c</span>
+            , <span class="label label-success">Ctrl+v</span>
+            , <span class="label label-success">Ctrl+x</span>
+            
+            Նախատեսված են նշված տեքստը(կամ այլ օբյեկտը, օրինակ ՝ ֆայլը) պատճենելու, կտրելու և զետեղելու համար։
+            <br>
+            <br>
+            <ul>
+              <li><span class="label label-success">Ctrl+c</span> - պատճենել (copy)</li>
+              <li><span class="label label-success">Ctrl+x</span> - կտրել (cut)</li>
+              <li><span class="label label-success">Ctrl+v</span> - զետեղել նախկինում կրկնապատկվածը կամ կտրվածը (paste)</li>
+            </ul>
           </div>
         </div>
 
@@ -46,8 +61,7 @@
           <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
           <div class="panel-body">
             <ol>
-              <li>Աշխատանքային տարածքի "Տեքստային դաշտում" տեղադրիր կուրսորը</li>
-              <li>Ապա <span class="label label-success">Ctrl+a</span>-ով նշիր ամբողջ տեքստը</li>
+              <li>Աշխատանքային տարածքում գտնվող տեքստերը կտրիր,պատճենիր կամ զետեղիր ըստ ցուցումների</li>
             </ol>
           </div>
         </div>
@@ -56,18 +70,28 @@
         <div class="panel panel-success">
           <div class="panel-heading"><span class="glyphicon glyphicon-wrench"></span> Աշխատանքային տարածք</div>
           <div class="panel-body">
-          <h4>Տեքստային դաշտ</h4>
-          <textarea class="form-control" id="ttext" cols="100" rows="16">Լոռեմ իփսում ․․․․ 
-          Մոռեմ լիպսում
-
-          Lorem Ipsum-ը տպագրության և տպագրական արդյունաբերության համար նախատեսված մոդելային տեքստ է: Սկսած 1500-ականներից` Lorem Ipsum-ը հանդիսացել է տպագրական արդյունաբերության ստանդարտ մոդելային տեքստ, ինչը մի անհայտ տպագրիչի կողմից տարբեր տառատեսակների օրինակների գիրք ստեղծելու ջանքերի արդյունք է: Այս տեքստը ոչ միայն կարողացել է գոյատևել հինգ դարաշրջան, այլև ներառվել է էլեկտրոնային տպագրության մեջ` մնալով էապես անփոփոխ: Այն հայտնի է դարձել 1960-ականներին Lorem Ipsum բովանդակող Letraset էջերի թողարկման արդյունքում, իսկ ավելի ուշ համակարգչային տպագրության այնպիսի ծրագրերի թողարկման հետևանքով, 
-
-          ինչպիսին է Aldus PageMaker-ը, որը ներառում է Lorem Ipsum-ի տարատեսակներ:
-          </textarea>
+          <h4>Պատճենել տեքստը կողքի դաշում</h4>
+          <div class="row"> 
+            <div class="col-md-6">
+              <input class="form-control" type="text" value="Կրկնապակելիք տեքստ" id="textFromCopy">
+            </div>
+            <div class="col-md-6">
+              <input class="form-control" type="text" id="textToCopy">
+            </div>
+          </div>
+          <h4>Կտրիր տեքստը և տեղադրիր այն կողքի դաշում</h4>
+          <div class="row"> 
+            <div class="col-md-6">
+              <input class="form-control" type="text" value="Կտրվելիք տեքստ" id="textFromCopy">
+            </div>
+            <div class="col-md-6">
+              <input class="form-control" type="text" id="textToCopy">
+            </div>
+          </div>
 
           <br>
           <hr>
-          <a href="10_ctrl_x_ctrl_c_ctrl_v.php" id="next" class="btn btn-lg btn-success pull-right">
+          <a href="01_tab.html" id="next" class="btn btn-lg btn-success pull-right">
           Հաջորդ վարժանքը »
           </a>
           </div>
