@@ -34,27 +34,8 @@
       
       
       <div class="row">
-        <div class="col-md-10">
-        <div class="panel panel-success">
-          <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
-          <div class="panel-body">
-            <span class="label label-success">PgUp</span> և <span class="label label-success">PgDwn</span> ստեղները նույնպես նավարկման ստեղներ են։
-            <ul>
-              <li><span class="label label-success">PgUp</span>֊ը տեղափոխում է մեկ էջ (կամ մեկ էկրանի չափ) վերև</li>
-              <li><span class="label label-success">PgDn</span>֊ը տեղափոխում է մեկ էջ (կամ մեկ էկրանի չափ) ներքև</li>
-            </ul>
-            
-          </div>
-        </div>
+        <div class="col-md-8">
 
-        <div class="panel panel-danger">
-          <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
-          <div class="panel-body">
-            <ol>
-              <li>Մի քանի անգամ սեղմիր <span class="label label-success">PgDn</span> ստեղնին, ապա <span class="label label-success">PgUp</span> ստեղնին</li>
-            </ol>
-          </div>
-        </div>
 
 
         <div class="panel panel-success">
@@ -86,7 +67,31 @@
 
 
        </div>
-     <?php include "template/sidebar.php"; ?>
+       <div class="col-md-4" id="sidebar">
+                <div class="panel panel-success">
+          <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
+          <div class="panel-body">
+            <span class="label label-success">PgUp</span> և <span class="label label-success">PgDwn</span> ստեղները նույնպես նավարկման ստեղներ են։
+            <ul>
+              <li><span class="label label-success">PgUp</span>֊ը տեղափոխում է մեկ էջ (կամ մեկ էկրանի չափ) վերև</li>
+              <li><span class="label label-success">PgDn</span>֊ը տեղափոխում է մեկ էջ (կամ մեկ էկրանի չափ) ներքև</li>
+            </ul>
+            
+          </div>
+        </div>
+
+        <div class="panel panel-danger">
+          <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
+          <div class="panel-body">
+            <ol>
+              <li>Մի քանի անգամ սեղմիր <span class="label label-success">PgDn</span> ստեղնին, ապա <span class="label label-success">PgUp</span> ստեղնին</li>
+            </ol>
+          </div>
+        </div>
+       </div> 
+
+
+     
 
       </div>
     

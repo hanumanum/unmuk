@@ -24,7 +24,7 @@
     <div class="container-fluid">
       <div class="page-header row">
         <div class="col-md-1">
-          <a href="" id="logo"><img src="images/no-mouse.jpg" width="80"></a>
+          
         </div>
         <div class="col-md-11">
           <h1>Ան-Մուկ (&beta;)</h1>
@@ -36,8 +36,8 @@
       
       
       <div class="row">
-        <div class="col-md-10">
-        <div class="panel panel-success">
+        <div class="col-md-12">
+        <div class="panel panel-success" id="zoomInfo">
           <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
           <div class="panel-body">
             <p>Այո, այո համակարգիչը կարելի է կառավարել միայն ստեղնաշարով, ու դու ցանկության դեպքում կարող ես դա սովորել։</p>
@@ -45,7 +45,7 @@
           </div>
         </div>
 
-        <div class="panel panel-danger">
+        <div class="panel panel-danger" id="zoomTodo">
           <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
           <div class="panel-body">
               <ol>
@@ -74,6 +74,8 @@
 
 
        </div>
+    
+    
      <?php include "template/sidebar.php"; ?>
 
       </div>

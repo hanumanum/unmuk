@@ -34,7 +34,36 @@
       
       
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-8">
+
+
+        <div class="panel panel-success">
+          <div class="panel-heading"><span class="glyphicon glyphicon-wrench"></span> Աշխատանքային տարածք</div>
+          <div class="panel-body">
+          <h4>Տեքստային դաշտ</h4>
+          <textarea class="form-control" cols="100" rows="30">Լոռեմ իփսում ․․․․ 
+          Մոռեմ լիպսում
+
+          Lorem Ipsum-ը տպագրության և տպագրական արդյունաբերության համար նախատեսված մոդելային տեքստ է: Սկսած 1500-ականներից` Lorem Ipsum-ը հանդիսացել է տպագրական արդյունաբերության ստանդարտ մոդելային տեքստ, ինչը մի անհայտ տպագրիչի կողմից տարբեր տառատեսակների օրինակների գիրք ստեղծելու ջանքերի արդյունք է: Այս տեքստը ոչ միայն կարողացել է գոյատևել հինգ դարաշրջան, այլև ներառվել է էլեկտրոնային տպագրության մեջ` մնալով էապես անփոփոխ: Այն հայտնի է դարձել 1960-ականներին Lorem Ipsum բովանդակող Letraset էջերի թողարկման արդյունքում, իսկ ավելի ուշ համակարգչային տպագրության այնպիսի ծրագրերի թողարկման հետևանքով, 
+
+          ինչպիսին է Aldus PageMaker-ը, որը ներառում է Lorem Ipsum-ի տարատեսակներ:
+          </textarea>
+
+
+
+
+          <hr>
+          <a href="04_tab_enter.php" class="btn btn-lg btn-success pull-right">
+          Հաջորդ վարժանքը »
+          </a>
+          </div>
+
+
+        </div>
+
+
+       </div>
+       <div class="col-md-4" id="sidebar">
         <div class="panel panel-success">
           <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
           <div class="panel-body">
@@ -74,34 +103,7 @@
           </div>
         </div>
 
-
-        <div class="panel panel-success">
-          <div class="panel-heading"><span class="glyphicon glyphicon-wrench"></span> Աշխատանքային տարածք</div>
-          <div class="panel-body">
-          <h4>Տեքստային դաշտ</h4>
-          <textarea class="form-control" cols="100" rows="16">Լոռեմ իփսում ․․․․ 
-          Մոռեմ լիպսում
-
-          Lorem Ipsum-ը տպագրության և տպագրական արդյունաբերության համար նախատեսված մոդելային տեքստ է: Սկսած 1500-ականներից` Lorem Ipsum-ը հանդիսացել է տպագրական արդյունաբերության ստանդարտ մոդելային տեքստ, ինչը մի անհայտ տպագրիչի կողմից տարբեր տառատեսակների օրինակների գիրք ստեղծելու ջանքերի արդյունք է: Այս տեքստը ոչ միայն կարողացել է գոյատևել հինգ դարաշրջան, այլև ներառվել է էլեկտրոնային տպագրության մեջ` մնալով էապես անփոփոխ: Այն հայտնի է դարձել 1960-ականներին Lorem Ipsum բովանդակող Letraset էջերի թողարկման արդյունքում, իսկ ավելի ուշ համակարգչային տպագրության այնպիսի ծրագրերի թողարկման հետևանքով, 
-
-          ինչպիսին է Aldus PageMaker-ը, որը ներառում է Lorem Ipsum-ի տարատեսակներ:
-          </textarea>
-
-
-
-
-          <hr>
-          <a href="04_tab_enter.php" class="btn btn-lg btn-success pull-right">
-          Հաջորդ վարժանքը »
-          </a>
-          </div>
-
-
-        </div>
-
-
        </div>
-     <?php include "template/sidebar.php"; ?>
 
       </div>
     

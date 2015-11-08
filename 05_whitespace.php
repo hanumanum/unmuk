@@ -34,27 +34,7 @@
       
       
       <div class="row">
-        <div class="col-md-10">
-        <div class="panel panel-success">
-          <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
-          <div class="panel-body">
-            
-            <span class="label label-success">Whitespace</span> ստեղնի միջոցով իջնել մեկ էկրանի չափով ներքև, ճիշտ <span class="label label-success">PgDn</span> ստեղնի պես։
-            <br>
-            <span class="label label-success">Whitespace</span>֊ի միջոցով կարելի է նաև բացել կախվող մենյուների ցանկերը։           
-          </div>
-        </div>
-
-        <div class="panel panel-danger">
-          <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
-          <div class="panel-body">
-            <ol>
-              <li>Հիմա սեղմիր <span class="label label-success">Whitespace</span>-ին մի քանի անգամ:</li>
-              <li><span class="label label-success">Tab</span>-ով նավարկիր մինչև «Ընտրեք Քաղաքը» ընտրիչը և <span class="label label-success">Whitespace</span>֊ով ընտրիր որևէ արժեք։</li>
-              <li>Նույնը արա նաև «Ընտրեք Լեզուն» ընտրիչի համար։</li>
-            </ol>
-          </div>
-        </div>
+        <div class="col-md-8">
 
 
         <div class="panel panel-success">
@@ -108,8 +88,29 @@
 
        </div>
 
-<?php include "template/sidebar.php"; ?>
-      
+        <div class="col-md-4" id="sidebar">
+        <div class="panel panel-success">
+          <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
+          <div class="panel-body">
+            
+            <span class="label label-success">Whitespace</span> ստեղնի միջոցով իջնել մեկ էկրանի չափով ներքև, ճիշտ <span class="label label-success">PgDn</span> ստեղնի պես։
+            <br>
+            <span class="label label-success">Whitespace</span>֊ի միջոցով կարելի է նաև բացել կախվող մենյուների ցանկերը։           
+          </div>
+        </div>
+
+        <div class="panel panel-danger">
+          <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
+          <div class="panel-body">
+            <ol>
+              <li>Հիմա սեղմիր <span class="label label-success">Whitespace</span>-ին մի քանի անգամ:</li>
+              <li><span class="label label-success">Tab</span>-ով նավարկիր մինչև «Ընտրեք Քաղաքը» ընտրիչը և <span class="label label-success">Whitespace</span>֊ով ընտրիր որևէ արժեք։</li>
+              <li>Նույնը արա նաև «Ընտրեք Լեզուն» ընտրիչի համար։</li>
+            </ol>
+          </div>
+        </div>
+
+        </div>      
       </div>
     
     

@@ -34,28 +34,7 @@
       
       
       <div class="row">
-        <div class="col-md-10">
-        <div class="panel panel-success">
-          <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
-          <div class="panel-body">
-            
-            Առցանց ֆորմաները կարելի է լրացնել օգտվելով միայն ստեղնաշարից։<br> 
-            Դա զգալիորեն արագացնում է աշխատանքը։ <br> 
-            Քեզ անհրաժեշտ կլինեն <span class="label label-success">Tab</span>-ը, <span class="label label-success">Shift+Tab</span>, սլաքները <span class="label label-success">&#8593;</span> <span class="label label-success">&#8592;</span> <span class="label label-success">&#8594;</span> <span class="label label-success">&#8595;</span>
-            և <span class="label label-success">Whitespace</span>
-            <br>
-          </div>
-        </div>
-
-        <div class="panel panel-danger">
-          <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
-          <div class="panel-body">
-            <ol>
-              <li>Լրացրու Աշխատանքային տարածքում զետեղված ֆորման</li>
-              <li>Ֆորմայի բոլոր դաշտերը լրացնելուց հետո միայն կարող ես անցնել հաջորդ վարժանքին։</li>
-            </ol>
-          </div>
-        </div>
+        <div class="col-md-8">
 
 
         <div class="panel panel-success">
@@ -103,7 +82,31 @@
 
        </div>
 
-<?php include "template/sidebar.php"; ?>
+        <div class="col-md-4" id="sidebar">
+        <div class="panel panel-success">
+          <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
+          <div class="panel-body">
+            
+            Առցանց ֆորմաները կարելի է լրացնել օգտվելով միայն ստեղնաշարից։<br> 
+            Դա զգալիորեն արագացնում է աշխատանքը։ <br> 
+            Քեզ անհրաժեշտ կլինեն <span class="label label-success">Tab</span>-ը, <span class="label label-success">Shift+Tab</span>, սլաքները <span class="label label-success">&#8593;</span> <span class="label label-success">&#8592;</span> <span class="label label-success">&#8594;</span> <span class="label label-success">&#8595;</span>
+            և <span class="label label-success">Whitespace</span>
+            <br>
+          </div>
+        </div>
+
+        <div class="panel panel-danger">
+          <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
+          <div class="panel-body">
+            <ol>
+              <li>Լրացրու Աշխատանքային տարածքում զետեղված ֆորման</li>
+              <li>Ֆորմայի բոլոր դաշտերը լրացնելուց հետո միայն կարող ես անցնել հաջորդ վարժանքին։</li>
+            </ol>
+          </div>
+        </div>
+
+
+        </div>
       
       </div>
     

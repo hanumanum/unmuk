@@ -38,7 +38,44 @@
       
       
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-8">
+
+        <div class="panel panel-success">
+          <div class="panel-heading"><span class="glyphicon glyphicon-wrench"></span> Աշխատանքային տարածք</div>
+          <div class="panel-body">
+          <h4>Պատճենիր տեքստը կողքի դաշում</h4>
+          <div class="row"> 
+            <div class="col-md-6">
+              <input class="form-control" type="text" value="Կրկնապակելիք տեքստ" id="textFromCopy">
+            </div>
+            <div class="col-md-6">
+              <input class="form-control" type="text" id="textToCopy">
+            </div>
+          </div>
+          <h4>Կտրիր տեքստը և տեղադրիր այն կողքի դաշում</h4>
+          <div class="row"> 
+            <div class="col-md-6">
+              <input class="form-control" type="text" value="Կտրվելիք տեքստ" id="textFromCut">
+            </div>
+            <div class="col-md-6">
+              <input class="form-control" type="text" id="textToCut">
+            </div>
+          </div>
+
+          <br>
+          <hr>
+          <a href="01_tab.html" id="next" class="btn btn-lg btn-success pull-right">
+          Հաջորդ վարժանքը »
+          </a>
+          </div>
+
+
+        </div>
+      
+
+       </div>
+
+    <div class="col-md-4" id="sidebar">
         <div class="panel panel-success">
           <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
           <div class="panel-body">
@@ -65,44 +102,7 @@
             </ol>
           </div>
         </div>
-
-
-        <div class="panel panel-success">
-          <div class="panel-heading"><span class="glyphicon glyphicon-wrench"></span> Աշխատանքային տարածք</div>
-          <div class="panel-body">
-          <h4>Պատճենել տեքստը կողքի դաշում</h4>
-          <div class="row"> 
-            <div class="col-md-6">
-              <input class="form-control" type="text" value="Կրկնապակելիք տեքստ" id="textFromCopy">
-            </div>
-            <div class="col-md-6">
-              <input class="form-control" type="text" id="textToCopy">
-            </div>
-          </div>
-          <h4>Կտրիր տեքստը և տեղադրիր այն կողքի դաշում</h4>
-          <div class="row"> 
-            <div class="col-md-6">
-              <input class="form-control" type="text" value="Կտրվելիք տեքստ" id="textFromCopy">
-            </div>
-            <div class="col-md-6">
-              <input class="form-control" type="text" id="textToCopy">
-            </div>
-          </div>
-
-          <br>
-          <hr>
-          <a href="01_tab.html" id="next" class="btn btn-lg btn-success pull-right">
-          Հաջորդ վարժանքը »
-          </a>
-          </div>
-
-
-        </div>
-      
-
-       </div>
-
-<?php include "template/sidebar.php"; ?>
+    </div>
       
       </div>
     
@@ -117,6 +117,33 @@
     <script src="js/jquery.grumble.min.js?v=7"></script>
     <script src="js/common.js"></script>
     <script type="text/javascript">
+      var cuted =false;
+      var copied =false;
+      var textToCopy = $("#textToCopy").val();
+      var textFromCopy = $("#textFromCopy").val(); 
+      var textToCut = $("#textToCut").val();
+      var textFromCut = $("#textFromCut").val(); 
+
+
+      function checkAndActivate()
+      {
+        active = (cuted && copied);
+        //console.log("name,fname,selectlang,date,color,check1,check2,range");
+        toogleButton(active,"#next");
+
+      }
+      
+      checkAndActivate();
+
+      $("#textToCopy").change(function(){
+        copied = ($("#textToCopy").val()==textFromCopy) ? true:false;
+        checkAndActivate();
+      })
+      
+      $("#textToCut").change(function(){
+        cuted = ($("#textToCut").val()==textFromCut && $("#textFromCut").val()=="") ? true:false;
+        checkAndActivate();
+      })
 
 
     </script>

@@ -9,16 +9,18 @@
     }
 
     .grumble-text {
-        position:absolute;
-        text-align:left;
+        position: absolute;
+        text-align: left;
         z-index: 99999;
         display: table;
-        overflow:hidden;
-        text-transform:none;
+        overflow: hidden;
+        text-transform: none;
         font-size: 14px;
         line-height: 22px;
-        background-color:#dff0d8;
-        border: solid 1px #4cae4c;
+        background-color: #F3F565;
+        border: solid 1px green;
+        box-shadow: 3px 3px 3px gray;
+        border-radius: 18px;
         }
         .ie7 .grumble-text,
         .ie6 .grumble-text {

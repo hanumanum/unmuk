@@ -34,7 +34,27 @@
       
       
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-8">
+
+
+        <div class="panel panel-success">
+          <div class="panel-heading"><span class="glyphicon glyphicon-wrench"></span> Աշխատանքային տարածք</div>
+          <div class="panel-body">
+
+          <br>
+          <hr>
+          <a href="08_ctrl_z.php" id="next" class="btn btn-lg btn-success pull-right">
+          Հաջորդ վարժանքը »
+          </a>
+          </div>
+
+
+        </div>
+
+
+       </div>
+
+      <div class="col-md-4" id="sidebar">
         <div class="panel panel-success">
           <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
           <div class="panel-body">
@@ -57,25 +77,7 @@
           </div>
         </div>
 
-
-        <div class="panel panel-success">
-          <div class="panel-heading"><span class="glyphicon glyphicon-wrench"></span> Աշխատանքային տարածք</div>
-          <div class="panel-body">
-
-          <br>
-          <hr>
-          <a href="01_tab.html" id="next" class="btn btn-lg btn-success pull-right">
-          Հաջորդ վարժանքը »
-          </a>
-          </div>
-
-
-        </div>
-
-
-       </div>
-
-<?php include "template/sidebar.php"; ?>
+      </div>
       
       </div>
     

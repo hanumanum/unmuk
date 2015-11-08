@@ -33,27 +33,8 @@
       </div>
       
       
-      <div class="row">
-        <div class="col-md-10">
-        <div class="panel panel-success">
-          <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
-          <div class="panel-body">
-            Սլաքների ստեղների <span class="label label-success">&#8593;</span> <span class="label label-success">&#8592;</span> <span class="label label-success">&#8594;</span> <span class="label label-success">&#8595;</span> միջոցով կարող ես տեղափոխել կուրսորը տեքստի ներսում։<br>
-            Նաև կարող ես բարձրացնել և իջեցնել էջը։
-
-
-          </div>
-        </div>
-
-        <div class="panel panel-danger">
-          <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
-          <div class="panel-body">
-            <ol>
-              <li>Հիմա փորձիր սեղմել <span class="label label-success">&#8593;</span> <span class="label label-success">&#8595;</span>-ին մի քանի անգամ և հասկանալ թե ինչ է կատարվում։</li>
-              <li>Տեղադրիր կուրսորը «Աշխատանքային տարածքի» «Ներմուծման տեքստային դաշտ»֊ում և շարժիր սլաքները, արա քո եզրակացությունները ։)  <span class="label label-success">&#8593;</span> <span class="label label-success">&#8595;</span></li>
-            </ol>
-          </div>
-        </div>
+      
+    <div class="col-md-8">
 
 
         <div class="panel panel-success">
@@ -75,6 +56,27 @@
 
 
        </div>
+     <div class="col-md-4" id="sidebar">
+        <div class="panel panel-success">
+          <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
+          <div class="panel-body">
+            Սլաքների ստեղների <span class="label label-success">&#8593;</span> <span class="label label-success">&#8592;</span> <span class="label label-success">&#8594;</span> <span class="label label-success">&#8595;</span> միջոցով կարող ես տեղափոխել կուրսորը տեքստի ներսում։<br>
+            Նաև կարող ես բարձրացնել և իջեցնել էջը։
+
+
+          </div>
+        </div>
+
+        <div class="panel panel-danger">
+          <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
+          <div class="panel-body">
+            <ol>
+              <li>Հիմա փորձիր սեղմել <span class="label label-success">&#8593;</span> <span class="label label-success">&#8595;</span>-ին մի քանի անգամ և հասկանալ թե ինչ է կատարվում։</li>
+              <li>Տեղադրիր կուրսորը «Աշխատանքային տարածքի» «Ներմուծման տեքստային դաշտ»֊ում և շարժիր սլաքները, արա քո եզրակացությունները ։)  <span class="label label-success">&#8593;</span> <span class="label label-success">&#8595;</span></li>
+            </ol>
+          </div>
+        </div>
+
      <?php include "template/sidebar.php"; ?>
 
       </div>

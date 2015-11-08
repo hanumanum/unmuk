@@ -34,23 +34,7 @@
       
       
       <div class="row">
-        <div class="col-md-10">
-        <div class="panel panel-success">
-          <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
-          <div class="panel-body">
-            <span class="label label-success">Ctrl+z</span>-ը նախատեսված է արված փոփոխությունը չեղարկելու համար։
-          </div>
-        </div>
-
-        <div class="panel panel-danger">
-          <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
-          <div class="panel-body">
-            <ol>
-              <li>Աշխատանքային տարածքի "Տեքստային դաշտում"" ավելացրու կամ ջնջիր տեքստը</li>
-              <li>Ապա <span class="label label-success">Ctrl+z</span>-ով չեղարկիր փոփոխություններդ</li>
-            </ol>
-          </div>
-        </div>
+        <div class="col-md-8">
 
 
         <div class="panel panel-success">
@@ -78,7 +62,26 @@
 
        </div>
 
-<?php include "template/sidebar.php"; ?>
+      <div class="col-md-4" id="sidebar">
+                <div class="panel panel-success">
+          <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
+          <div class="panel-body">
+            <span class="label label-success">Ctrl+z</span>-ը նախատեսված է արված փոփոխությունը չեղարկելու համար։
+          </div>
+        </div>
+
+        <div class="panel panel-danger">
+          <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
+          <div class="panel-body">
+            <ol>
+              <li>Աշխատանքային տարածքի "Տեքստային դաշտում"" ավելացրու կամ ջնջիր տեքստը</li>
+              <li>Ապա <span class="label label-success">Ctrl+z</span>-ով չեղարկիր փոփոխություններդ</li>
+            </ol>
+          </div>
+        </div>
+
+
+      </div>
       
       </div>
     

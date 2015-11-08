@@ -33,24 +33,7 @@
       
       
       <div class="row">
-        <div class="col-md-10">
-        <div class="panel panel-success">
-          <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
-          <div class="panel-body">
-            <span class="label label-success">Tab</span> ստեղնի միջոցով կարելի է տեղափոխվել էջի ներսում գտնվող ակտիվ էլեմենտների վրայով։          
-          </div>
-        </div>
-
-        <div class="panel panel-danger">
-          <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
-          <div class="panel-body">
-            <ol>
-              <li>Հիմա փորձիր սեղմել <span class="label label-success">Tab</span>-ին մի քանի անգամ և հասկանալ թե ինչ է կատարվում։</li>
-              <li>Tab-ի միջոցով նավարկելով հասիր «Հաջորդը» կոճակին</li>
-              <li>Սեղմի՛ր <span class="label label-success">Enter</span>, կանցնես հաջորդ վարժանքին</li>
-            </ol>
-          </div>
-        </div>
+        <div class="col-md-8">
 
 
         <div class="panel panel-success">
@@ -94,8 +77,26 @@
 
        </div>
 
-<?php include "template/sidebar.php"; ?>
-      
+      <div class="col-md-4" id="sidebar">
+        <div class="panel panel-success">
+          <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
+          <div class="panel-body">
+            <span class="label label-success">Tab</span> ստեղնի միջոցով կարելի է տեղափոխվել էջի ներսում գտնվող ակտիվ էլեմենտների վրայով։          
+          </div>
+        </div>
+
+        <div class="panel panel-danger">
+          <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
+          <div class="panel-body">
+            <ol>
+              <li>Հիմա փորձիր սեղմել <span class="label label-success">Tab</span>-ին մի քանի անգամ և հասկանալ թե ինչ է կատարվում։</li>
+              <li>Tab-ի միջոցով նավարկելով հասիր «Հաջորդը» կոճակին</li>
+              <li>Սեղմի՛ր <span class="label label-success">Enter</span>, կանցնես հաջորդ վարժանքին</li>
+            </ol>
+          </div>
+        </div>
+
+      </div>      
       </div>
     
     
