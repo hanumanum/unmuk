@@ -30,6 +30,7 @@
           <h1>Ան-Մուկ</h1>
           <p>Սլաքներով ստեղները <span class="label label-success">&#8593;</span> <span class="label label-success">&#8592;</span> <span class="label label-success">&#8594;</span> <span class="label label-success">&#8595;</span></p>
       </div>
+      
       </div>
       
       

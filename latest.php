@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>ԱնՄուկ | Ctrl+Tab և Alt+Tab</title>
+    <title>ԱնՄուկ | Ավարտ</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,11 +24,11 @@
     <div class="container-fluid">
       <div class="page-header row">
         <div class="col-md-1">
-
+                  
         </div>
         <div class="col-md-11">
           <h1>Ան-Մուկ</h1>
-          <p><span class="label label-success">Ctrl+Tab</span> և <span class="label label-success">Alt+Tab</span></p>
+          <p>Ավարտ</p>
       </div>
       </div>
       
@@ -36,34 +36,39 @@
       <div class="row">
         <div class="col-md-8">
 
-
         <div class="panel panel-success">
           <div class="panel-heading"><span class="glyphicon glyphicon-wrench"></span> Աշխատանքային տարածք</div>
           <div class="panel-body">
-
+          <a href="00_arrows.php" class="btn btn-lg btn-primary">
+            <span class="glyphicon glyphicon-refresh"></span> Կրկնել
+          </a><br><br>
+          <a href="/unmuk/#share" class="btn btn-lg btn-primary">
+            <span class="glyphicon glyphicon-share"></span> Տարածել
+          </a><br><br> 
+          <a href="manual.php" class="btn btn-lg btn-primary">
+            <span class="glyphicon glyphicon-list"></span> Դիտել ուղեցույցը
+          </a>
+          
+          <br>
           <br>
           <hr>
-          <a href="08_ctrl_z.php" id="next" class="btn btn-lg btn-success pull-right">
-          Հաջորդ վարժանքը »
-          </a>
+          
           </div>
 
 
         </div>
-
+      
 
        </div>
 
-      <div class="col-md-4" id="sidebar">
+    <div class="col-md-4" id="sidebar">
         <div class="panel panel-success">
           <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
           <div class="panel-body">
-            <span class="label label-success">Ctrl+Tab</span> և <span class="label label-success">Alt+Tab</span> ստեղնաշարային կոմբինացիաների միջոցով կարելի է նավարկել բացված պատուհանների կամ պատուհանների ներդիրների միջև։
+              Դու ավարտեցիր մեր կարճ դասընթացը, սակայն ստեղնաշարային կառավարման հնարրքների ցանկը այստեղ ներկայացվածներով չի ավարտվում։
             <br><br>
-            <ul>
-              <li><span class="label label-success">Alt+Tab</span> բացված պատուհաններ(ծրագրեր)</li>
-              <li><span class="label label-success">Ctrl+Tab</span> ակտիվ ծրագրերի ներդիրներ</li>
-            </ul>
+              Ամեն մի ծրագիր ունի իր ուրույն հնարքները, որոնց կարելի է ծանոթանալ  <a href="additional.php">հավելյալ նյութեր</a> էջում։
+            <br>
           </div>
         </div>
 
@@ -71,18 +76,16 @@
           <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
           <div class="panel-body">
             <ol>
-              <li>Բացված ներդիրների միջև նավարկելու համար արա <span class="label label-success">Ctrl+Tab</span></li>
-              <li>Ապա փորձիր անել <span class="label label-success">Alt+Tab</span></li>
+                <li>Ուսումնասիրիր կարճ <a href="manual.php">ուղեցույցը</a></li>
+                <li>Կրկին <a href="/00_arrows.php">անցիր</a> այս դասընթացը, հմտություններդ ամրապնդելու համար</li>
+                <li>Տարածի՛ր դասընթացը ընկերներիդ շրջանակում, տարածելու գործիքները հասանելի են դասընթացի <a href="/unmuk/#share">առաջին էջում</a>։</li>
             </ol>
           </div>
         </div>
-
-      </div>
+    </div>
       
       </div>
-    
-    
-        
+       
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -91,6 +94,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.grumble.min.js?v=7"></script>
     <script src="js/common.js"></script>
+    <script type="text/javascript">
+    </script>
         <?php include "template/footer.php" ?> 
   </body>
 </html>

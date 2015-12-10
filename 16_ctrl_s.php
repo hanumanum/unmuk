@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>ԱնՄուկ | Ctrl+a</title>
+    <title>ԱնՄուկ | Ctrl+S</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -24,11 +24,13 @@
     <div class="container-fluid">
       <div class="page-header row">
         <div class="col-md-1">
-          
+                  
         </div>
         <div class="col-md-11">
           <h1>Ան-Մուկ</h1>
-          <p>Նշել ամբողջը <span class="label label-success">Ctrl+a</span></p>
+          <p>Պահպանել  
+            <span class="label label-success">Ctrl+S</span>
+          </p>
       </div>
       </div>
       
@@ -36,21 +38,14 @@
       <div class="row">
         <div class="col-md-8">
 
-
         <div class="panel panel-success">
           <div class="panel-heading"><span class="glyphicon glyphicon-wrench"></span> Աշխատանքային տարածք</div>
           <div class="panel-body">
-          <h4>Տեքստային դաշտ</h4>
-          <textarea class="form-control" id="ttext" cols="100" rows="16">Այնուամենայնիվ, ի՞նչ եղավ Կառլոսը։ Արդյոք ճիշտ էր, որ նա կտրելանցել էր Մեծ Հարթավայրերը։ Մի՞թե նա այդպես էլ չվերադարձավ։ Ի՞նչ պատահեց Սան Իլդեֆոնսո բնակավայրի հետ։
-
-Այդ հարցերը ստիպված էինք տալ, որովհետև այս առասպելը պատմող մարդը լռեց: Նրա հայացքը հովտում այս ու այն կողմ էր թափառում, երբեմն հառվում էր Խորտակված աղջկա քարափի վրա, երբեմն էլ կանգնում մոլախոտով պատված վզատակների վրա։ Խոր հուզմունքն էր պատեց նրան։ Ահա թե ինչու նա լռեց։ Ունկնդրողները սկսեցին կռահել Սան Իլդեֆոնսոյին վիճակված ճակատագրի մասին ու անհամբերությամբ սպասում էին պատմության ավարտին։ Փոքր-ինչ անց պատմողը շարունակեց.
-
-– Այո, Կառլոսը վերադարձավ։ Ի՞նչ տեղի ունեցավ Սան Իլդեֆոնսոյում։ Ահա այն ավերակները ձեզ կպատասխանեն: Սան Իլդեֆոնսոն կործանվեց։ Ուզում եք իմանալ, թե դա ինչպե՞ս պատահեց։ Դա մի զարհուրելի պատմություն է, արյան ու վրեժի պատմություն։ Կառլոսը վրեժ լուծեց։
-          </textarea>
-
+          Տեղեկատվությունը ուժ է։ Բայց բոլոր ուժերի պարագայում էլ կան մարդիկ, ովքեր ուզում են այդ ուժը իրենցը լինի։ Աշխարհի գիտական եւ մշակութային ժառանգությունը, որ դարերով տպվում էր ամսագրերում եւ գրքերում, այժմ գնալով ավելի ու ավելի շատ է թվայնացվում, եւ փակվում մի քանի մասնավոր կազմակերպությունների կողմից։ Ցանկանո՞ւմ ես կարդալ գիտական կարեւոր արդյունքներով ամսագիր։ Պետք է ահռելի գումար մուծես Ռիդ Էլսեվիերի նման հրատարակիչներին։<br>
+Կան մարդիկ, ովքեր պայքարում են սա փոխելու համար։ Բաց հասանելիության շարժումը(Open Access Movement) պայքարում է, որ գիտնականները չստորագրեն այնպիսի փաստաթղթեր, որով նրանք կհրաժարվեն իրենց հեղինակային իրավունքներից, ու նաեւ, որ գիտնականները համոզվեն, որ իրենց աշխատանքները լինելու են համացանցում, եւ հասանելի են լինելու բոլորին։ Բայց նույնիսկ, եթե լավագույն սցենարը տեղի ունենա, միեւնույնն է, դա կազդի այն ամենի վրա, ինչ կտպագրվի սրանից հետո։ Իսկ այն ամենը, ինչ արդեն իսկ տված է, կորած է։<br>
           <br>
           <hr>
-          <a href="10_ctrl_x_ctrl_c_ctrl_v.php" id="next" class="btn btn-lg btn-success pull-right">
+          <a href="latest.php" id="next" class="btn btn-lg btn-success pull-right">
           Հաջորդ վարժանքը »
           </a>
           </div>
@@ -61,11 +56,13 @@
 
        </div>
 
-      <div class="col-md-4" id="sidebar">
+    <div class="col-md-4" id="sidebar">
         <div class="panel panel-success">
           <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
           <div class="panel-body">
-            <span class="label label-success">Ctrl+a</span>-ն նախատեսված է տեքստը ամբողջությամբ ընտրելու համար։
+              <span class="label label-success">Ctrl+s</span>-ը նախատեսված է էջը պահպանելու համար, այն աշխատում է նաև այլ ծրագրերում աշխատելիս կատարված փոփոխությունները պահպանելու համար։
+            <br>
+            <br>
           </div>
         </div>
 
@@ -73,19 +70,14 @@
           <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
           <div class="panel-body">
             <ol>
-              <li>Աշխատանքային տարածքի "Տեքստային դաշտում" տեղադրիր կուրսորը</li>
-              <li>Ապա <span class="label label-success">Ctrl+a</span>-ով նշիր ամբողջ տեքստը</li>
+                <li><span class="label label-success">Ctrl+s</span>֊ով պահպանիր այս էջը համակարգչիդ մեջ։
             </ol>
           </div>
         </div>
-
-
     </div>
       
       </div>
-    
-    
-        
+       
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -95,8 +87,6 @@
     <script src="js/jquery.grumble.min.js?v=7"></script>
     <script src="js/common.js"></script>
     <script type="text/javascript">
-
-
     </script>
         <?php include "template/footer.php" ?> 
   </body>

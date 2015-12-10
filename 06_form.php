@@ -43,13 +43,13 @@
             <h4>Ֆորմա</h4>
             <input type="text" class="form-control" placeholder="Լրացրու անունդ" id="name"><br>
             <input type="text" class="form-control" placeholder="Լրացրու ազգանունդ" id="fname"><br>
-            <h5>Լեզուներից ընտրիր չներենը</h5>  
+            <h5>Լեզուներից ընտրիր Չինարեն</h5>  
             <select class="form-control" id="selectlang">
                 <option>--</option>
                 <option>Հայերեն</option>
                 <option>Անգլերեն</option>
                 <option>Ռուսերեն</option>
-                <option>Չիներեն</option>
+                <option>Չինարեն</option>
             </select>
             <h5>Ընտրիր որևէ սեռ</h5>  
             <input type="radio" value="male" name="gender" id="gender"> Արական
@@ -71,7 +71,7 @@
             
 
           <hr>
-          <a href="07_ctrl_tab_alt_tab_helper1.php" disabled id="next" class="btn btn-lg btn-success pull-right">
+          <a href="07_ctrl_tab_alt_tab.php" disabled id="next" class="btn btn-lg btn-success pull-right">
           Հաջորդ վարժանքը »
           </a>
           </div>
@@ -141,7 +141,7 @@
         toogleButton(active,"#next");
         if(active)
         {
-          goNext();  
+          //goNext();  
         }
         
 
@@ -161,7 +161,7 @@
 
 
       $("#selectlang").change(function(event) {
-        selectlang = $(this).val()=="Չիներեն" ? true:false;
+        selectlang = $(this).val()=="Չինարեն" ? true:false;
           checkAndActivate();      
       });
 
@@ -282,7 +282,7 @@
           window.open("http://grapaharan.org", '_blank');
           window.open("http://hy-it.org", '_blank');
           window.open("07_ctrl_tab_alt_tab.php", '_blank');
-          window.close();
+          //window.close();
       }
       
     </script>

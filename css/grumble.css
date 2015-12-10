@@ -17,10 +17,10 @@
         text-transform: none;
         font-size: 14px;
         line-height: 22px;
-        background-color: #F3F565;
-        border: solid 1px green;
+        background-color: #3C773C;
+        border: solid 1px white;
         box-shadow: 3px 3px 3px gray;
-        border-radius: 18px;
+        border-radius: 5px;
         }
         .ie7 .grumble-text,
         .ie6 .grumble-text {
@@ -29,7 +29,7 @@
         .grumble-text .outer {
             display: table-cell;
             vertical-align: middle;
-            color:black;
+            color:white;
             }
             .ie7 .grumble-text .outer, 
             .ie6 .grumble-text .outer {

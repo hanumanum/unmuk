@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>ԱնՄուկ | Ctrl+a</title>
+    <title>ԱնՄուկ | F11</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,9 @@
         </div>
         <div class="col-md-11">
           <h1>Ան-Մուկ</h1>
-          <p>Նշել ամբողջը <span class="label label-success">Ctrl+a</span></p>
+          <p>Ամբողջ էկրանով  
+            <span class="label label-success">F11</span>
+          </p>
       </div>
       </div>
       
@@ -36,21 +38,18 @@
       <div class="row">
         <div class="col-md-8">
 
-
         <div class="panel panel-success">
           <div class="panel-heading"><span class="glyphicon glyphicon-wrench"></span> Աշխատանքային տարածք</div>
           <div class="panel-body">
-          <h4>Տեքստային դաշտ</h4>
-          <textarea class="form-control" id="ttext" cols="100" rows="16">Այնուամենայնիվ, ի՞նչ եղավ Կառլոսը։ Արդյոք ճիշտ էր, որ նա կտրելանցել էր Մեծ Հարթավայրերը։ Մի՞թե նա այդպես էլ չվերադարձավ։ Ի՞նչ պատահեց Սան Իլդեֆոնսո բնակավայրի հետ։
+          Իսկ այժմ նրանք երկար ճանապարհ են կտրելու։ Նրանք քայլելու են առավոտից մինչեւ կեսօր եւ եթե առայժմ լուռ էին, ապա լոկ այն պատճառով, որ յուրաքանչյուրն իր մտքերի հետ էր։ Երբ արեւը կծագի ու կջերմացնի, նրանք կսկսեն զրուցել կամ գուցե թե ամեն մեկը պարզապես կպատմի իր հիշածը, որպեսզի համոզվի, որպեսզի իսկապես վստահ լինի, որ այդ ամենը մնացել է իր հիշողության մեջ։ Մոնթագը զգում էր, որ իր մեջ եւս արթնանում եւ հետզհետե կենդանանում են բառերը։ Ի՞նչ է ասելու ինքը, երբ իր հերթը գա։ Ի՞նչ կարող է ասել այդպիսի մի օր, որպեսզի ինչ֊որ չափով թեթեւացնի, կարճի նրանց ծանր ու երկար ճանապարհը։ Ամեն բան իր ժամանակն ունի՝ ավերելու ժամանակը եւ կառուցելու ժամանակը։ Լռելու ժամանակը եւ խոսելու ժամանակը[32]։ Այո, այդպես է, բայց ուրիշ էլ ի՞նչ։ Կա ինչ֊որ բան, ինչ֊որ բան, որ պետք է ասել…<br>
 
-Այդ հարցերը ստիպված էինք տալ, որովհետև այս առասպելը պատմող մարդը լռեց: Նրա հայացքը հովտում այս ու այն կողմ էր թափառում, երբեմն հառվում էր Խորտակված աղջկա քարափի վրա, երբեմն էլ կանգնում մոլախոտով պատված վզատակների վրա։ Խոր հուզմունքն էր պատեց նրան։ Ահա թե ինչու նա լռեց։ Ունկնդրողները սկսեցին կռահել Սան Իլդեֆոնսոյին վիճակված ճակատագրի մասին ու անհամբերությամբ սպասում էին պատմության ավարտին։ Փոքր-ինչ անց պատմողը շարունակեց.
+          «Գետի եզերքին, մեկ եւ մյուս կողմում, կար կենաց ծառ, որ տալիս էր տասներկու տեսակ պտուղ, ամեն ամիս՝ իր պտուղը, եւ ծառի տերեւը հեթանոսների բուժման համար էր»։ <br>
 
-– Այո, Կառլոսը վերադարձավ։ Ի՞նչ տեղի ունեցավ Սան Իլդեֆոնսոյում։ Ահա այն ավերակները ձեզ կպատասխանեն: Սան Իլդեֆոնսոն կործանվեց։ Ուզում եք իմանալ, թե դա ինչպե՞ս պատահեց։ Դա մի զարհուրելի պատմություն է, արյան ու վրեժի պատմություն։ Կառլոսը վրեժ լուծեց։
-          </textarea>
+          Այո, մտածեց Մոնթագը, ահա ինչ կասեմ նրանց կեսօրին։ Կեսօրին… երբ կմոտենանք քաղաքին։<br>
 
           <br>
           <hr>
-          <a href="10_ctrl_x_ctrl_c_ctrl_v.php" id="next" class="btn btn-lg btn-success pull-right">
+          <a href="16_ctrl_s.php" id="next" class="btn btn-lg btn-success pull-right">
           Հաջորդ վարժանքը »
           </a>
           </div>
@@ -61,11 +60,13 @@
 
        </div>
 
-      <div class="col-md-4" id="sidebar">
+    <div class="col-md-4" id="sidebar">
         <div class="panel panel-success">
           <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
           <div class="panel-body">
-            <span class="label label-success">Ctrl+a</span>-ն նախատեսված է տեքստը ամբողջությամբ ընտրելու համար։
+              <span class="label label-success">F11</span>֊ով կարելի է անցել լիէկրան ռեժիմ։
+            <br>
+            <br>
           </div>
         </div>
 
@@ -73,19 +74,14 @@
           <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
           <div class="panel-body">
             <ol>
-              <li>Աշխատանքային տարածքի "Տեքստային դաշտում" տեղադրիր կուրսորը</li>
-              <li>Ապա <span class="label label-success">Ctrl+a</span>-ով նշիր ամբողջ տեքստը</li>
+                <li>Մի քանի անգամ սեղմիր <span class="label label-success">F11</span>։ Տես ինչ կկատարվի։
             </ol>
           </div>
         </div>
-
-
     </div>
       
       </div>
-    
-    
-        
+       
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -95,8 +91,6 @@
     <script src="js/jquery.grumble.min.js?v=7"></script>
     <script src="js/common.js"></script>
     <script type="text/javascript">
-
-
     </script>
         <?php include "template/footer.php" ?> 
   </body>

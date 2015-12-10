@@ -61,10 +61,16 @@
               <input class="form-control" type="text" id="textToCut">
             </div>
           </div>
+          <h4>Պատճենիր ամբողջ տեքստը երկրորդ տեքստային դաշտում</h4>
+          <textarea class="form-control" id="ttext" cols="100" rows="5">Մենք պետք է վերցնենք տեղեկատվությունը, անկախ դրա գտնվելու վայրից, պատճենենք, եւ կիսվենք դրանով աշխարհի հետ։ Մենք պետք է վերցնենք տեղեկատվությունը, որը պաշտպանված չէ հեղինակային իրավունքով, եւ ավելացնենք այն Արխիվում։ Մենք պետք է գնենք գաղտնի տվյալների բազաներ եւ տեղադրենք դրանք Վեբում։ Մենք պետք է բեռնենք գիտական ամսագրեր եւ տարածենք դրանք սոց․ ցանցերում, որոնք հնարավորություն են տալիս պանակներ տեղադրել։ Մենք պետք է պայքարենք Բաց հասանելիության պարտիզանականության համար։
+          </textarea>
+          <br>
+          <textarea class="form-control" id="ttext2" cols="100" rows="5"></textarea>
+
 
           <br>
           <hr>
-          <a href="01_tab.html" id="next" class="btn btn-lg btn-success pull-right">
+          <a href="11_shift_arrows.php" id="next" class="btn btn-lg btn-success pull-right">
           Հաջորդ վարժանքը »
           </a>
           </div>
@@ -98,7 +104,7 @@
           <div class="panel-heading"><span class="glyphicon glyphicon-tasks"> Կատարի՛ր</div>
           <div class="panel-body">
             <ol>
-              <li>Աշխատանքային տարածքում գտնվող տեքստերը կտրիր,պատճենիր կամ զետեղիր ըստ ցուցումների</li>
+              <li>Աշխատանքային տարածքում գտնվող տեքստերը կտրիր,պատճենիր կամ զետեղիր ըստ դաշտերում գրված ցուցումների</li>
             </ol>
           </div>
         </div>
@@ -119,15 +125,17 @@
     <script type="text/javascript">
       var cuted =false;
       var copied =false;
+      var copied2=false;
       var textToCopy = $("#textToCopy").val();
       var textFromCopy = $("#textFromCopy").val(); 
       var textToCut = $("#textToCut").val();
-      var textFromCut = $("#textFromCut").val(); 
-
+      var textFromCut = $("#textFromCut").val();
+      var ttext = $("#ttext").val();
 
       function checkAndActivate()
       {
-        active = (cuted && copied);
+        active = (cuted && copied && copied2);
+        console.log(cuted,copied,copied2);
         //console.log("name,fname,selectlang,date,color,check1,check2,range");
         toogleButton(active,"#next");
 
@@ -143,6 +151,13 @@
       $("#textToCut").change(function(){
         cuted = ($("#textToCut").val()==textFromCut && $("#textFromCut").val()=="") ? true:false;
         checkAndActivate();
+      })
+
+      $("#ttext2").bind("paste",function(){
+        setTimeout(function() {
+        copied2 = ($("#ttext2").val().trim()==ttext.trim() && $("#ttext").val().trim()==ttext.trim()) ? true:false;
+        checkAndActivate();
+        }, 100);
       })
 
 

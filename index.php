@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="descripton" content="Ողջու՜յն, Սա համակարգչի ստեղնաշարային կառավարման ինքուսույց է"
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Ան֊Մուկ | Համակարգչի ստեղնաշարային կառավարման ինքուսույց</title>
 
@@ -21,16 +22,13 @@
   </head>
   <body>
     
-    <div class="container-fluid">
+    <div class="container">
       <div class="page-header row">
-        <div class="col-md-1">
-          
-        </div>
         <div class="col-md-11">
           <h1>Ան-Մուկ (&beta;)</h1>
           <p>Ողջու՜յն, Սա համակարգչի ստեղնաշարային կառավարման ինքուսույց է</p>
-          <p>Այս պահին ինքնուսույցը դեռևս գտնվում է զարգացման և տեստավորման փուլում, սակայն դու կարող ես ուսումնասիրել այն և անել առաջարկներ և դիտողություններ։</p>
-          <p>Առաջարկների կամ դիտողությունների համար օգտվիր կայքի նկուղում գտնվող կապ հղումից։</p>
+          <p>Այս պահին ինքնուսույցը դեռևս գտնվում է զարգացման և տեստավորման փուլում, սակայն դու կարող ես ուսումնասիրել այն և անել առաջարկներ և դիտողություններ։</p> Ինքնուսույցը աշխատում է chrome <img src="images/chrome.png" width="25"> և firefox <img src="images/firefox_logo.50.jpg" width="33"> դիտարկիչներում։
+          <!-- <p>Առաջարկների կամ դիտողությունների համար օգտվիր կայքի նկուղում գտնվող կապ հղումից։</p> -->
       </div>
       </div>
       
@@ -41,7 +39,7 @@
           <div class="panel-heading"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացի՛ր</div>
           <div class="panel-body">
             <p>Այո, այո համակարգիչը կարելի է կառավարել միայն ստեղնաշարով, ու դու ցանկության դեպքում կարող ես դա սովորել։</p>
-            <p></p> 
+            <p>Ամեն վարժանք կազմված է <span class="label label-success han-size1"><span class="glyphicon glyphicon-exclamation-sign"></span> Իմացիր</span> ,  <span class="label label-danger han-size1"><span class="glyphicon glyphicon-tasks"></span> Կատարիր</span> և <span class="label label-success han-size1"><span class="glyphicon glyphicon-wrench"></span> Աշխատանքային տարածք</span>  բլոկներից</p> 
           </div>
         </div>
 
@@ -72,7 +70,7 @@
 
         </div>
 
-
+                  <p>Վարժանքներում օգտագործված տեքստերը <a href="http://grapaharan.org" target="_blank">Գրապահարան</a>-ից են։</p>
        </div>
     
     
