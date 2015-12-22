@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>ԱնՄուկ | Shift+arrows</title>
+    <title>Ան֊Մուկ | Shift+arrows</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -49,19 +49,19 @@
           <br>
           <div class="row"> 
             <div class="col-md-6">
-              <input class="form-control" type="text" id="textFirstWord" placeholder="տեղարիր առաջին բառը այստեղ">
+              <input class="form-control" type="text" id="textFirstWord" placeholder="տեղադրիր առաջին բառը այստեղ">
             </div>
             <div class="col-md-6">
-              <input class="form-control" type="text" id="textSecondWord" placeholder="տեղարիր երկրորդ բառը այստեղ">
+              <input class="form-control" type="text" id="textSecondWord" placeholder="տեղադրիր երկրորդ բառը այստեղ">
             </div>
           </div>
           <br>
           <div class="row"> 
             <div class="col-md-6">
-              <input class="form-control" type="text" id="textLastWord" placeholder="տեղարիր վերջին բառը այստեղ">
+              <input class="form-control" type="text" id="textLastWord" placeholder="տեղադրիր վերջին բառը այստեղ">
             </div>
             <div class="col-md-6">
-              <input class="form-control" type="text" id="textPreLastWord" placeholder="տեղարիր նախավերջին բառը այստեղ">
+              <input class="form-control" type="text" id="textPreLastWord" placeholder="տեղադրիր նախավերջին բառը այստեղ">
             </div>
           </div>
 

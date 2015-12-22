@@ -4,13 +4,20 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="descripton" content="Ողջու՜յն, Սա համակարգչի ստեղնաշարային կառավարման ինքուսույց է"
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="descripton" content="Ողջու՜յն, Սա համակարգչի ստեղնաշարային կառավարման ինքուսույց է">
+    
+    <meta property="og:url" content="http://ablog.gratun.am/unmuk/" />
+    <meta property="og:title" content="Ան֊Մուկ․ Համակարգչի ստեղնաշարային կառավարման ինքուսույց" />
+    <meta property="og:description" content="Սովորիր կառավարել համակարգիչդ միայն ստեղնաշարի օգնությամբ։" />
+    <meta property="og:image" content="http://ablog.gratun.am/unmuk/images/no-mouse.jpg" />
+
     <title>Ան֊Մուկ | Համակարգչի ստեղնաշարային կառավարման ինքուսույց</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
     <link rel="stylesheet" href="css/grumble.css?v=5">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -72,8 +79,32 @@
 
                   <p>Վարժանքներում օգտագործված տեքստերը <a href="http://grapaharan.org" target="_blank">Գրապահարան</a>-ից են։</p>
        </div>
-    
-    
+
+     <div id="share" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Տարածել</h4>
+          </div>
+          <div class="modal-body">
+            <p>Տարածելով այս ինքուսույցը դու ավելի էֆեկտիվ կդարձնես ընկերներիդ աշխատանքը։</p>
+             <a class="btn btn-social-icon btn-facebook" onclick="Share.facebook('http://ablog.gratun.am/unmuk/','Ան֊Մուկ. Համակարգչի ստեղնաշարային կառավարման ինքուսույց','images/no-mouse.jpg','Սովորիր աշխատել առանց ստեղնաշարի։')"><span class="fa fa-facebook"></span></a>
+             <a class="btn btn-social-icon btn-odnoklassniki" onclick="Share.odnoklassniki('http://ablog.gratun.am/unmuk/','Ան֊Մուկ. Համակարգչի ստեղնաշարային կառավարման ինքուսույց')"><span class="fa fa-odnoklassniki"></span></a>
+             <a class="btn btn-social-icon btn-vk" onclick="Share.vkontakte('http://ablog.gratun.am/unmuk/','Ան֊Մուկ. Համակարգչի ստեղնաշարային կառավարման ինքուսույց','images/no-mouse.jpg','Սովորիր աշխատել առանց ստեղնաշարի։')"><span class="fa fa-vk"></span></a>
+             <a class="btn btn-social-icon btn-twitter" onclick="Share.twitter('http://ablog.gratun.am/unmuk/','Ան֊Մուկ․ Համակարգչի ստեղնաշարային կառավարման ինքուսույց')"><span class="fa fa-twitter"></span></a> 
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Փակել</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
      <?php include "template/sidebar.php"; ?>
 
       </div>
@@ -92,6 +123,11 @@
     <script type="text/javascript">
     
 
+    $(document).ready(function() {
+        if(window.location.href.indexOf('#share') != -1) {
+          $('#share').modal('show');
+        }
+    });
 
 
     /*
@@ -105,9 +141,6 @@
     });
     */
     
-    
-
-
     </script>
     <?php include "template/footer.php" ?> 
   </body>
