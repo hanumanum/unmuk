@@ -1,9 +1,5 @@
-
-
-
- 
-     <ul>
-     <?php /*
+<ul>
+    <?php /*
      $files = scandir(".");
      foreach ($files as $file) {
        if(is_file("/var/www/unmuk/".$file))
@@ -12,11 +8,10 @@
        }
      }
       */
-     ?> 
-     </ul>
+    ?>
+</ul>
 
 
-
-      </div>
+</div>
     
 
