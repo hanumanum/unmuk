@@ -1,0 +1,5 @@
+#PHPStorm config folder
+.idea/
+
+#bower components folder
+bower_components/
